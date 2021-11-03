@@ -102,7 +102,7 @@ If you want to pass a default custom configuration that will be used as a fallba
 You can also pass custom configuration data for specific caches by doing:
 
 ```
-    play.cache.caffeine.user-cache = {
+    play.cache.caffeine.caches.user-cache = {
         initial-capacity = 200
         ...
     }
